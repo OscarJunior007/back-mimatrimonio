@@ -1,0 +1,407 @@
+{
+  "Wedding Planner": {
+    "Bogotá": [
+      {
+        "id": "wp-bog-001",
+        "nombre": "Sacerdotisa y Oficiante de Bodas",
+        "categoria": "Wedding Planner",
+        "ubicacion": {
+          "ciudad": "Bogotá",
+          "departamento": "Bogota",
+          "direccion": "Carrera 7 #85-23, Chicó Norte"
+        },
+        "contacto": {
+          "telefono": "+57 310 456 7890",
+          "email": "contacto@sacerdotisayoficiante.com",
+          "sitio_web": "www.sacerdotisayoficiante.com.co",
+          "redes_sociales": {
+            "facebook": "facebook.com/sacerdotisayoficiante",
+            "instagram": "@sacerdotisa_oficiante_bodas"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 5.0,
+          "num_opiniones": 282,
+          "porcentaje_recomendacion": 100
+        },
+        "precio": {
+          "precio_inicial": 2500000,
+          "rango_precio": "Precio desde $2.500.000"
+        },
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/cat/vestidos-novia/rosa-clara/lura--mfvr706794.jpg",
+          "https://www.matrimonio.com.co/assets/img/components/header/tabs/realweddings_banner.jpg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0764_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0763_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0762_10_113424.jpeg"
+        ]
+      }
+    ],
+    "Bucaramanga": [
+      {
+        "id": "wp-buc-001",
+        "nombre": "Eventos Alta Clase",
+        "categoria": "Wedding Planner",
+        "ubicacion": {
+          "ciudad": "Bucaramanga",
+          "departamento": "Santander",
+          "direccion": "Calle 36 #23-15, Cabecera del Llano"
+        },
+        "contacto": {
+          "telefono": "+57 315 234 5678",
+          "email": "info@eventosaltaclase.com",
+          "sitio_web": "www.eventosaltaclase.com.co",
+          "redes_sociales": {
+            "facebook": "facebook.com/eventosaltaclase",
+            "instagram": "@eventos_alta_clase"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 4.9,
+          "num_opiniones": 9,
+          "porcentaje_recomendacion": 99
+        },
+        "precio": {
+          "precio_inicial": 3000000,
+          "rango_precio": "Precio desde $3.000.000"
+        },
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0765_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0766_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0767_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0768_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0769_10_113424.jpeg"
+        ]
+      },
+      {
+        "id": "wp-buc-002",
+        "nombre": "Bodas Gloria Franco",
+        "categoria": "Wedding Planner",
+        "ubicacion": {
+          "ciudad": "Bucaramanga",
+          "departamento": "Santander",
+          "direccion": "Carrera 27 #48-32, Centro"
+        },
+        "contacto": {
+          "telefono": "+57 318 567 8901",
+          "email": "gloriafranco@bodasgloria.com",
+          "sitio_web": "www.bodasgloriafranco.com",
+          "redes_sociales": {
+            "facebook": "facebook.com/bodasgloriafranco",
+            "instagram": "@bodas_gloria_franco"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 4.8,
+          "num_opiniones": 45,
+          "porcentaje_recomendacion": 98
+        },
+        "precio": {
+          "precio_inicial": 3500000,
+          "rango_precio": "Precio desde $3.500.000"
+        },
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0761_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0770_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/1_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/3_10_113424.jpeg"
+        ]
+      }
+    ],
+    "Yopal": [
+      {
+        "id": "wp-yop-001",
+        "nombre": "FJ Staff",
+        "categoria": "Wedding Planner",
+        "ubicacion": {
+          "ciudad": "Yopal",
+          "departamento": "Casanare",
+          "direccion": "Calle 19 #15-28, Centro"
+        },
+        "contacto": {
+          "telefono": "+57 320 678 9012",
+          "email": "eventos@fjstaff.com",
+          "sitio_web": "www.fjstaff.com.co",
+          "redes_sociales": {
+            "facebook": "facebook.com/fjstaff",
+            "instagram": "@fj_staff_eventos"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 4.7,
+          "num_opiniones": 28,
+          "porcentaje_recomendacion": 97
+        },
+        "precio": {
+          "precio_inicial": 2800000,
+          "rango_precio": "Precio desde $2.800.000"
+        },
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/5_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/6_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0144_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0154_10_113424.jpeg"
+        ]
+      }
+    ],
+    "Manizales": [
+      {
+        "id": "wp-man-001",
+        "nombre": "Patty Bridal",
+        "categoria": "Wedding Planner",
+        "ubicacion": {
+          "ciudad": "Manizales",
+          "departamento": "Caldas",
+          "direccion": "Avenida Santander #25-40"
+        },
+        "contacto": {
+          "telefono": "+57 312 890 1234",
+          "email": "info@pattybridal.com",
+          "sitio_web": "www.pattybridal.com.co",
+          "redes_sociales": {
+            "facebook": "facebook.com/pattybridal",
+            "instagram": "@patty_bridal_events"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 5.0,
+          "num_opiniones": 13,
+          "porcentaje_recomendacion": 99
+        },
+        "precio": {
+          "precio_inicial": 3200000,
+          "rango_precio": "Precio desde $3.200.000"
+        },
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0161_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0171_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0178_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0323_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0388_10_113424.jpeg"
+        ]
+      }
+    ]
+  },
+  "Fotografia": {
+    "Barranquilla": [
+      {
+        "id": "fot-bar-001",
+        "nombre": "Impacto Digital",
+        "categoria": "Fotografia",
+        "ubicacion": {
+          "ciudad": "Barranquilla",
+          "departamento": "Atlantico",
+          "direccion": "Calle 72 #54-32, Barrio El Prado"
+        },
+        "contacto": {
+          "telefono": "+57 300 123 4567",
+          "email": "contacto@impactodigital.com.co",
+          "sitio_web": "www.impactodigital.com.co",
+          "redes_sociales": {
+            "facebook": "facebook.com/impactodigital",
+            "instagram": "@impactodigitalfoto"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 5.0,
+          "num_opiniones": 45,
+          "porcentaje_recomendacion": 100
+        },
+        "precio": {
+          "precio_inicial": 1200000,
+          "rango_precio": "Precio desde $1.200.000"
+        },
+        "servicios": [
+          "Fotografia",
+          "Video",
+          "Sesion de novios",
+          "Sesion postboda",
+          "Album"
+        ],
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0418_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/1a-1_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/1a-5_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/1a-6_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/1a-9_10_113424.jpeg"
+        ]
+      },
+      {
+        "id": "fot-bar-002",
+        "nombre": "Eydaviunafoto",
+        "categoria": "Fotografia",
+        "ubicacion": {
+          "ciudad": "Barranquilla",
+          "departamento": "Atlantico",
+          "direccion": "Carrera 53 #76-180, Barrio Alto Prado"
+        },
+        "contacto": {
+          "telefono": "+57 305 987 6543",
+          "email": "info@eydaviunafoto.com",
+          "sitio_web": "www.eydaviunafoto.com",
+          "redes_sociales": {
+            "facebook": "facebook.com/eydaviunafoto",
+            "instagram": "@eydaviunafoto"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 5.0,
+          "num_opiniones": 92,
+          "porcentaje_recomendacion": 100
+        },
+        "precio": {
+          "precio_inicial": 1500000,
+          "rango_precio": "Precio desde $1.500.000"
+        },
+        "servicios": [
+          "Sesion preboda",
+          "Sesion postboda",
+          "Cobertura parcial el dia de la boda",
+          "Cobertura total el dia de la boda",
+          "Albumes/photobooks",
+          "Retablos/cuadros enmarcados",
+          "Sesion bridal boudoir"
+        ],
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-20_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-25_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-35_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-55_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-57_10_113424.jpeg"
+        ]
+      },
+      {
+        "id": "fot-bar-003",
+        "nombre": "John Rosales",
+        "categoria": "Fotografia",
+        "ubicacion": {
+          "ciudad": "Barranquilla",
+          "departamento": "Atlantico",
+          "direccion": "Calle 84 #51B-45"
+        },
+        "contacto": {
+          "telefono": "+57 301 456 7890",
+          "email": "john@johnrosalesfoto.com",
+          "sitio_web": "www.johnrosalesfotografia.com",
+          "redes_sociales": {
+            "facebook": "facebook.com/johnrosalesfoto",
+            "instagram": "@johnrosales_photo"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 4.8,
+          "num_opiniones": 38,
+          "porcentaje_recomendacion": 98
+        },
+        "precio": {
+          "precio_inicial": 1800000,
+          "rango_precio": "Precio desde $1.800.000"
+        },
+        "servicios": [
+          "Cobertura completa del dia del matrimonio",
+          "Sesion de preparacion de la novia",
+          "Sesion preparacion novio",
+          "Sesion preboda",
+          "Album digital"
+        ],
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/2b-60_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4d-1_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4d-11_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4d-12_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4d-13_10_113424.jpeg"
+        ]
+      },
+      {
+        "id": "fot-bar-004",
+        "nombre": "Andrea Salas",
+        "categoria": "Fotografia",
+        "ubicacion": {
+          "ciudad": "Barranquilla",
+          "departamento": "Atlantico",
+          "direccion": "Carrera 59 #68-23"
+        },
+        "contacto": {
+          "telefono": "+57 310 234 5678",
+          "email": "andrea@andreasalasfoto.com",
+          "sitio_web": "www.andreasalasfotografia.com",
+          "redes_sociales": {
+            "facebook": "facebook.com/andreasalasfoto",
+            "instagram": "@andreasalas_photography"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 4.9,
+          "num_opiniones": 52,
+          "porcentaje_recomendacion": 99
+        },
+        "precio": {
+          "precio_inicial": 1400000,
+          "rango_precio": "Precio desde $1.400.000"
+        },
+        "servicios": [
+          "Cobertura completa del dia de la boda",
+          "Sesion pre y postboda",
+          "Mini albumes",
+          "Album digital",
+          "Fotografias en alta resolucion"
+        ],
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/4d-14_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/cat/vestidos-novia/rosa-clara/lura--mfvr706794.jpg",
+          "https://www.matrimonio.com.co/assets/img/components/header/tabs/realweddings_banner.jpg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0764_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0763_10_113424.jpeg"
+        ]
+      }
+    ],
+    "Arauca": [
+      {
+        "id": "fot-ara-001",
+        "nombre": "Eydaviunafoto",
+        "categoria": "Fotografia",
+        "ubicacion": {
+          "ciudad": "Arauca",
+          "departamento": "Arauca",
+          "direccion": "Calle 21 #18-45, Centro"
+        },
+        "contacto": {
+          "telefono": "+57 305 987 6543",
+          "email": "info@eydaviunafoto.com",
+          "sitio_web": "www.eydaviunafoto.com",
+          "redes_sociales": {
+            "facebook": "facebook.com/eydaviunafoto",
+            "instagram": "@eydaviunafoto"
+          }
+        },
+        "calificacion": {
+          "puntuacion": 5.0,
+          "num_opiniones": 92,
+          "porcentaje_recomendacion": 100
+        },
+        "precio": {
+          "precio_inicial": 1500000,
+          "rango_precio": "Precio desde $1.500.000"
+        },
+        "servicios": [
+          "Sesion preboda",
+          "Sesion postboda",
+          "Cobertura parcial el dia de la boda",
+          "Cobertura total el dia de la boda",
+          "Albumes/photobooks",
+          "Retablos/cuadros enmarcados",
+          "Sesion bridal boudoir"
+        ],
+        "imagenes": [
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0762_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0765_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0766_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0767_10_113424.jpeg",
+          "https://cdn0.matrimonio.com.co/vendor/3424/3_2/960/jpg/img-0768_10_113424.jpeg"
+        ]
+      }
+    ]
+  }
+}
