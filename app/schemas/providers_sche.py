@@ -48,6 +48,7 @@ class ProveedorOut(BaseModel):
         from_attributes = True
 
 
+
 class ProveedoresResponse(BaseModel):
     success: bool
     data: dict
