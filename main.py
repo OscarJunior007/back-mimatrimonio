@@ -26,7 +26,7 @@ def start_application():
 )
     app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://mi-app-vue-771549744673.us-central1.run.app"],
+    allow_origins=["http://localhost:3000","https://mi-matrimonio-web.web.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
