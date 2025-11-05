@@ -2,62 +2,52 @@ from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import JSONResponse
 from typing import Union, Optional
 from ..schemas.filters_sche import CategoriasProveedores
+from ..schemas.providers_sche import ProveedorOut
 from ..utils.extract_providers import obtener_todos_proveedores, obtener_proveedor_por_id
-
+from fastapi_pagination import Page,paginate
 router = APIRouter(
     prefix="/proveedores",
     tags=["proveedores"]
 )
 
-@router.get("")
+
+
+
+@router.get("", response_model=Page[ProveedorOut])
 async def obtener_todos_los_proveedores(
     categoria: Union[CategoriasProveedores, None] = None,
     ubicacion: Optional[str] = None,
-    precio_max: Optional[int] = None,
-    limite: Optional[int] = 100
 ):
     """
-    Obtiene todos los proveedores con filtros opcionales
+    Obtiene todos los proveedores con filtros opcionales y paginación automática.
     
+    La paginación se controla con los parámetros query:
+    - **page**: Número de página (default: 1)
+    - **size**: Tamaño de página (default: 50, max: 100)
     - **categoria**: Filtrar por categoría específica
     - **ubicacion**: Filtrar por ciudad
-    - **precio_max**: Precio máximo inicial
-    - **limite**: Número máximo de resultados
+
     """
+    # Obtener todos los proveedores (esto debería ser tu lista o query)
     todos_proveedores = obtener_todos_proveedores()
     
-    # Aplicar filtro de categoría
+    # Aplicar filtros
+    proveedores_filtrados = todos_proveedores
+    
     if categoria:
-        todos_proveedores = [
-            prov for prov in todos_proveedores 
+        proveedores_filtrados = [
+            prov for prov in proveedores_filtrados 
             if prov.get("categoria", "").lower() == categoria.value.lower()
         ]
     
-    # Aplicar filtro de ubicación
     if ubicacion:
-        todos_proveedores = [
-            prov for prov in todos_proveedores
+        proveedores_filtrados = [
+            prov for prov in proveedores_filtrados
             if prov.get("ubicacion", {}).get("ciudad", "").lower() == ubicacion.lower()
         ]
+
     
-    # Aplicar filtro de precio
-    if precio_max:
-        todos_proveedores = [
-            prov for prov in todos_proveedores
-            if prov.get("precio", {}).get("precio_inicial", float('inf')) <= precio_max
-        ]
-    
-    # Limitar resultados
-    if limite:
-        todos_proveedores = todos_proveedores[:limite]
-    
-    return {
-        "success": True,
-        "data": {
-            "proveedores": todos_proveedores,
-            "total": len(todos_proveedores)
-        }
-    }
+    return paginate(proveedores_filtrados)
 
 
 @router.get("/{proveedor_id}")

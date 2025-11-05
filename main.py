@@ -9,7 +9,7 @@ from fastapi.requests import Request
 from enum  import Enum
 from typing import Union
 from app.api import providers
-
+from fastapi_pagination import Page, add_pagination, paginate
 
 
 def include_router(app):
@@ -31,6 +31,7 @@ def start_application():
     allow_methods=["*"],
     allow_headers=["*"],
 )
+    add_pagination(app)
     include_router(app)
     return app  
 

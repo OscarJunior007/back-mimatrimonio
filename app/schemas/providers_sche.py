@@ -42,7 +42,7 @@ class ProveedorOut(BaseModel):
     calificacion: Calificacion
     precio: Precio
     servicios: Optional[List[str]] = None
-    imagen_principal: Optional[str] = None
+    imagenes: Optional[list[str]] = None
     
     class Config:
         from_attributes = True
