@@ -28,10 +28,10 @@ async def obtener_todos_los_proveedores(
     - **ubicacion**: Filtrar por ciudad
 
     """
-    # Obtener todos los proveedores (esto debería ser tu lista o query)
+ 
     todos_proveedores = obtener_todos_proveedores()
     
-    # Aplicar filtros
+
     proveedores_filtrados = todos_proveedores
     
     if categoria:
